@@ -5,9 +5,9 @@ use warnings;
 use Net::SMTP;
 
 # Define email parameters
-my $tolist = 'justbelievekarthi@gmail.com';
-my $fromlist = 'ks1796504@gmail.com';
-my $subject = 'SWS INTERNATIONAL pvt ltd';
+my $tolist = 'receiveremailID.com';
+my $fromlist = 'senderemailID.com';
+my $subject = 'COSTUMIZE IT';
 
 # Define HTML-formatted message
 my $message = generate_html_message();
@@ -15,7 +15,7 @@ my $message = generate_html_message();
 # SMTP Server Settings
 my $smtp_server = 'smtp.gmail.com';
 my $smtp_port = 587;
-my $smtp_username = 'ks1796504@gmail.com';
+my $smtp_username = 'senderemailID.com';
 my $smtp_password = '';
 
 # Create and configure SMTP object
@@ -33,19 +33,19 @@ sub generate_html_message {
   <title>Important Announcement</title>
 </head>
 <body>
-  <h1 style="color: #0088cc;">SWS TECHNOLOGIES PVT LTD</h1>
+  <h1 style="color: #0088cc;"><YOUR TOPIC></h1>
   <p>Hello there,</p>
   <p>We are excited to announce a special event coming up!</p>
   <p>Details:</p>
   <ul>
     <li>Date: September 15, 2023</li>
     <li>Time: 2:00 PM - 5:00 PM</li>
-    <li>Location: About VLSI Advance Concepts</li>
+    <li>Location: About </li>
   </ul>
-  <p>This event will be a great opportunity to connect and network with others in the industry.</p>
-  <p>Please mark your calendar and join us for this exciting event!</p>
+  <p>This event ABOUT writing how to automate email.</p>
+  <p>Please make sure you have smtp connection!</p>
   <p>Best regards,</p>
-  <p>The Event Team</p>
+  <p>HAPPY CODER</p>
 </body>
 </html>
 END_OF_MESSAGE
